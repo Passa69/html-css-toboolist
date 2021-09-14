@@ -33,10 +33,52 @@
     border-radius: 10%;
 }
 
-#input_button{
+.input_button{
     background-color: rgb(128, 128, 255);
-    padding: 5px 7px;
-    border: rgb(172, 172, 172); 
+    padding: 2px 7px;
+    font-size: 15px;
 }
 
 /* sezione1 */
+.task{
+    margin-top: 50px;
+}
+
+.task_title{
+    margin-top: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.direction_arrow{
+    size: 30px;
+}
+
+.text_check{
+    display: inline;
+    color: rgb(1, 212, 1);
+    border: 1px solid rgb(1, 212, 1);
+    border-radius: 50%;
+}
+
+.text{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.input_task{
+    margin-top: 5px;
+    background-color: rgb(119, 119, 253);
+    padding: 2px 2px;
+    font-size: 10px;
+    border-radius: 10%;
+}
+
+.list{
+    margin: 10px;
+}
+
+#negative{
+    color: red;
+    border-color: red;
+}
