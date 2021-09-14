@@ -21,8 +21,22 @@
 }
 
 /* main */
-
 #container{
     width: 70%;
     margin: 50px auto;
 }
+
+/* input */
+.input{
+    padding: 3px 4px;
+    font-size: 13px;  
+    border-radius: 10%;
+}
+
+#input_button{
+    background-color: rgb(128, 128, 255);
+    padding: 5px 7px;
+    border: rgb(172, 172, 172); 
+}
+
+/* sezione1 */
