@@ -3,4 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+/* logo */
+#logo{
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#title{
+    font-size: 50px;
+}
+
+/* main */
+
+#container{
+    width: 70%;
+    margin: 50px auto;
 }
