@@ -39,8 +39,8 @@
     font-size: 15px;
 }
 
-/* sezione1 */
-.task{
+/* sezioni */
+#task{
     margin-top: 50px;
 }
 
@@ -63,7 +63,7 @@
 
 .text{
     display: inline-block;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .input_task{
@@ -81,4 +81,28 @@
 #negative{
     color: red;
     border-color: red;
+}
+
+#color1{
+    background-color: rgb(192, 1, 192);
+}
+
+#color2{
+   background-color: rgb(0, 158, 0); 
+}
+
+#color3{
+    background-color: orange;
+}
+
+#color4{
+    background-color: rgb(255, 146, 164);
+}
+
+#color5{
+   background-color: greenyellow; 
+}
+
+#color6{
+    background-color: rgb(128, 128, 255);
 }
