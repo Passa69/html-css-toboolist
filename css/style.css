@@ -6,31 +6,46 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: white;
+}
+
 /* header */
 
 /* logo */
-#logo{
+header img{
     display: inline-block;
     line-height: 50px;
     vertical-align: middle;
     margin-left: 20px;
 }
 
-#title{
+header span{
     font-size: 50px;
+    vertical-align: middle;
 }
 
 /* main */
-#container{
-    width: 70%;
+main{
+    width: 80%;
     margin: 50px auto;
+    background-color: white;
 }
 
 /* input */
 .input{
     padding: 3px 4px;
     font-size: 13px;  
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+#buttons{
+    border: 3px solid lightgrey;
+    padding: 10px 30px;
 }
 
 .input_button{
@@ -50,13 +65,11 @@
     display: inline-block;
 }
 
-.direction_arrow{
-    size: 30px;
-}
-
 .text_check{
     display: inline;
     color: rgb(1, 212, 1);
+    width: 5px;
+    height: 5px;
     border: 1px solid rgb(1, 212, 1);
     border-radius: 50%;
 }
@@ -71,7 +84,7 @@
     background-color: rgb(119, 119, 253);
     padding: 5px 5px;
     font-size: 12px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .list{
